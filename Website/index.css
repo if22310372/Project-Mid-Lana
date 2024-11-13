@@ -1,0 +1,29 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrap{
+
+}
+
+.wrap .header{
+    text-align: center;
+    background-image: url(C:\Users\lanac\Downloads\College\Project_FrontEnd\final-project-front-end-lana\Website\IMG\image_lanadelrey.jpg);
+}
+
+.wrap .header ul{
+    text-align: right;
+}
+
+.wrap .header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+clear{
+    clear: both;
+}

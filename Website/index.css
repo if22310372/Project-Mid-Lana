@@ -3,12 +3,13 @@
 }
 
 .wrap{
-
+    display: flex;
+    
+    flex-direction: column;
 }
 
 .wrap .header{
     text-align: center;
-    background-image: url(C:\Users\lanac\Downloads\College\Project_FrontEnd\final-project-front-end-lana\Website\IMG\image_lanadelrey.jpg);
 }
 
 .wrap .header ul{
@@ -16,13 +17,20 @@
 }
 
 .wrap .header ul li{
-    list-style: none;
-    display: inline-block;
     padding: 10px;
     border-radius: 20px;
     margin: 20px;
-    background-color: blueviolet;
+
+    list-style: none;
+    display: inline-block;
+    
 }
+
+.wrap .body .body1{
+    display: flex;
+}
+
+
 
 clear{
     clear: both;

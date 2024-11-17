@@ -28,6 +28,28 @@
 
 .wrap .body .body1{
     display: flex;
+    justify-content: center;
+
+}
+
+.wrap #banner{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    
+    position: absolute;
+}
+
+.wrap .body .body1 h1{
+    margin-top: 100px;
+    margin-right: 300px;
+}
+
+.wrap .body .body1 img{
+    height: 275px;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 

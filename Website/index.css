@@ -10,6 +10,8 @@
 
 .wrap .header{
     text-align: center;
+
+    position: absolute;
 }
 
 .wrap .header ul{
@@ -37,7 +39,7 @@
     width: 100%;
     object-fit: cover;
     
-    position: absolute;
+    
 }
 
 .wrap .body .body1 h1{
